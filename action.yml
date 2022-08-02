@@ -1,4 +1,4 @@
-name: 'Run textlint with reviewdog'
+name: 'Run textlint with reviewdog(yarn)'
 description: '🐶Run textlint with reviewdog on pull requests to improve document writing experience.'
 author: 'Tsuyoshi CHO <Tsuyoshi.CHO+develop@Gmail.com>'
 inputs:
