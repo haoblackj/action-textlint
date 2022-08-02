@@ -88,19 +88,19 @@ jobs:
         with:
           node-version: '15'
       - name: textlint-github-pr-check
-        uses: haoblackj/action-textlint@v3
+        uses: haoblackj/action-textlint@v1
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-check
           textlint_flags: "doc/**"
       - name: textlint-github-check
-        uses: haoblackj/action-textlint@v3
+        uses: haoblackj/action-textlint@v1
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-check
           textlint_flags: "doc/**"
       - name: textlint-github-pr-review
-        uses: haoblackj/action-textlint@v3
+        uses: haoblackj/action-textlint@v1
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
