@@ -16,11 +16,7 @@ if [ -x "./node_modules/.bin/textlint"  ]; then
   echo 'already installed'
 else
   echo 'install start'
-  if [ -e ./yarn.lock ]; then
-    yarn install --frozen-lockfile
-  else
-    npm ci
-  fi
+  yarn install --frozen-lockfile
 fi
 
 if [ -x "./node_modules/.bin/textlint"  ]; then
