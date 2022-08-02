@@ -1,6 +1,6 @@
 name: 'Run textlint with reviewdog(yarn)'
 description: '🐶Run textlint with reviewdog on pull requests to improve document writing experience.'
-author: 'Tsuyoshi CHO <Tsuyoshi.CHO+develop@Gmail.com>'
+author: 'haoblackj <17177994+haoblackj@users.noreply.github.com>'
 inputs:
   github_token:
     description: 'GITHUB_TOKEN.'
