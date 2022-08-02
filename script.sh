@@ -15,8 +15,12 @@ echo '::group:: Installing textlint ...  https://github.com/textlint/textlint'
 if [ -x "./node_modules/.bin/textlint"  ]; then
   echo 'already installed'
 else
-  echo 'npm ci start'
-  npm ci
+  echo 'install start'
+  if [ -e ./yarn.lock ]; then
+    yarn install --immutable --immutable-cache --check-
+  else
+    npm ci
+  fi
 fi
 
 if [ -x "./node_modules/.bin/textlint"  ]; then

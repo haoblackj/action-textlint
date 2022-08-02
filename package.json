@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsuyoshicho/action-textlint.git"
+    "url": "git+https://github.com/haoblackj/action-textlint.git"
   },
   "keywords": [
     "textlint",
     "markdown"
   ],
-  "author": "tsuyoshi_cho <Tsuyoshi.CHO+npm@Gmail.com>",
+  "author": "haoblackj <17177994+haoblackj@users.noreply.github.com>",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/tsuyoshicho/action-textlint/issues"
+    "url": "https://github.com/haoblackj/action-textlint/issues"
   },
-  "homepage": "https://github.com/tsuyoshicho/action-textlint#readme",
+  "homepage": "https://github.com/haoblackj/action-textlint#readme",
   "devDependencies": {},
   "dependencies": {
     "textlint": "12.2.1",
