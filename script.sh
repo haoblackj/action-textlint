@@ -17,7 +17,7 @@ if [ -x "./node_modules/.bin/textlint"  ]; then
 else
   echo 'install start'
   if [ -e ./yarn.lock ]; then
-    yarn install --immutable --immutable-cache --check-cache
+    yarn install
   else
     npm ci
   fi
