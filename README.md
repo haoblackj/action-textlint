@@ -6,7 +6,7 @@ action-textlint use textlint within npm ecosystem.
 
 ## detail
 
-[![Release](https://github.com/tsuyoshicho/action-textlint/workflows/release/badge.svg)](https://github.com/tsuyoshicho/action-textlint/releases)
+[![Release](https://github.com/haoblackj/action-textlint/workflows/release/badge.svg)](https://github.com/haoblackj/action-textlint/releases)
 
 This action runs [textlint](https://github.com/textlint/textlint) with
 [reviewdog](https://github.com/reviewdog/reviewdog) on pull requests to improve
@@ -88,19 +88,19 @@ jobs:
         with:
           node-version: '15'
       - name: textlint-github-pr-check
-        uses: tsuyoshicho/action-textlint@v3
+        uses: haoblackj/action-textlint@v3
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-check
           textlint_flags: "doc/**"
       - name: textlint-github-check
-        uses: tsuyoshicho/action-textlint@v3
+        uses: haoblackj/action-textlint@v3
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-check
           textlint_flags: "doc/**"
       - name: textlint-github-pr-review
-        uses: tsuyoshicho/action-textlint@v3
+        uses: haoblackj/action-textlint@v3
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
